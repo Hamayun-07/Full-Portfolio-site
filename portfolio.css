@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Baloo+2&family=Lexend+Exa:wght@100;200&family=Montserrat+Alternates:wght@100;200&family=Montserrat:wght@200&family=Poppins:ital,wght@0,100;0,400;0,600;1,800&family=Space+Mono&display=swap');
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Baloo 2', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+    /* 1rem = 10px */
+    overflow-x: hidden;
+}
+.container{
+   width: 100%;
+   display: flex;
+}
+.left{
+    width: 50rem;
+    height: 100vh;
+    background-color: #f3f5f9;
+    display: flex;
+}
+.left-data{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem 0;
+}
+.image{
+    width: 18rem;
+}
+.image img{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 10rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.left-info h1{
+    font-size: 4rem;
+    margin-top: 5rem;
+}
+.left-info h3{
+    text-align: center;
+}
+.left-info h3{
+    font-size: 1.6rem;
+}
+.left-info #main{
+    color: blueviolet;
+}
+.links{
+    margin-top: 3rem;
+}
+#navLink li{
+    text-align: center;
+    padding-bottom: .8rem;
+    font-size: 2rem;
+}
+#navLink li a{
+    color: #262626;
+    font-weight: 600;
+    position: relative;
+    transition: .3s ease;
+}
+#navLink li a.active{
+    color:blueviolet;
+}
+#navLink li a:hover{
+    color: blueviolet;
+}
+#navLink li a.active::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: .3rem;
+    background-color: blueviolet;
+    left: 0;
+    transition: .3s ease;
+    border-radius: 5rem;
+ }
+#navLink li a::after{
+   position: absolute;
+   content: "";
+   width: 0;
+   height: .3rem;
+   background-color: blueviolet;
+   left: 0;
+   transition: .3s ease;
+   border-radius: 5rem;
+}
+#navLink li a:hover::after{
+    width: 100%;
+}
+.social{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ 
+}
+.social h2{
+    color: blueviolet;
+    font-size: 2.5rem;
+}
+.icons{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.icons a{
+
+}
+.icons a i{
+    color:black;
+    border-radius: 10rem;
+    padding: 1rem 1.2rem;
+    font-size: 1.5rem;
+    background-color:white;
+    transition: .3s ease;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.icons a i:hover{
+    background-color: blueviolet;
+    color: #Ffff;
+    transform: translateY(-.3rem);
+}
+.right{
+    width: 100%;
+    background-image: url(Images/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.right_data{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 7rem;
+}
+.right_data h1{
+    font-size: 7rem;
+    text-transform: capitalize;
+    line-height: 9rem;
+    font-family: math;
+}
+.right_data p{
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+#btn{
+    width: auto;
+    padding:.7rem 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    border: 1.7px solid blueviolet;
+    font-weight: bold;
+    margin-top: 8rem;
+    transition: .3s ease;
+    cursor: pointer;
+}
+#btn i{
+    margin-left: 1rem;
+}
+#btn:hover{
+    background-color: blueviolet;
+    color: #fff;
+}

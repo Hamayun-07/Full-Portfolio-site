@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="navbar">
+            <div class="logo">Portfolio.</div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+            <div class="button" id="callme">
+                <button><a href="#contact">Call Me <i class="fa fa-phone" aria-hidden="true"></i></a></button>
+            </div>
+            <div class="menubars">
+                <i class="fa fa-bars" id="menu"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section class="home" id="home">
+        <div class="home_content">
+            <div class="text-one">Hello,</div>
+            <div class="text-two">I'm Jackson Ford</div>
+            <div class="text-three">Frontend Developer</div>
+            <div class="text-four">From United Kindom</div>
+            <div class="button">
+                <button><a href="#contact">Hire Me</a></button>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+        <div class="about_content">
+            <div class="title"><span>About Me</span></div>
+            <div class="about-details">
+                <div class="left">
+                    <img src="Images/about.jpg" alt="portfolio">
+                </div>
+                <div class="right">
+                    <h3>Designing My Pasion</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut placeat praesentium aperiam
+                        doloribus laboriosam quam ducimus in, explicabo optio libero. Deserunt quos, vel, aliquam
+                        sapiente, recusandae vero ratione dicta aperiam temporibus aut tenetur dolor deleniti quidem. Ea
+                        qui molestias voluptatibus? Repudiandae expedita hic temporibus voluptatem cupiditate suscipit
+                        dolor commodi distinctio
+                    </p>
+
+                    <div class="button">
+                        <button><a href="#"></a>Download CV</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="service" id="service">
+        <div class="service_content heading">
+            <div class="mid_heading"><span>My Services</span></div>
+
+            <div class="service_cards">
+                <div class="box">
+                    <a href="#"><i class="fa fa-desktop"></i></a>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit lorem ipsum dolor</p>
+                </div>
+
+                <div class="box">
+                    <a href="#"><i class="fa fa-pencil"></i></a>
+                    <h2>Graphic Designing</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit lorem ipsum dolor</p>
+                </div>
+
+                <div class="box">
+                    <a href="#"><i class="fa fa-desktop"></i></a>
+                    <h2>Digital Marketing</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit lorem ipsum dolor</p>
+                </div>
+            </div>
+            <div class="service_cards">
+                <div class="box">
+                    <a href="#"><i class="fa fa-desktop"></i></a>
+                    <h2>Wordpress</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit lorem ipsum dolor</p>
+                </div>
+
+                <div class="box">
+                    <a href="#"><i class="fa fa-code"></i></a>
+                    <h2>UI/UX Designing</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit lorem ipsum dolor</p>
+                </div>
+
+                <div class="box">
+                    <a href="#"><i class="fa fa-mobile"></i></a>
+                    <h2>App Development</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit lorem ipsum dolor</p>
+                </div>
+            </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio_content heading">
+            <div class="mid_heading"><span>Portfolio</span></div>
+
+            <div id="portolio_cards">
+                <div class="imageCard">
+                    <img src="Images/p1.jpg">
+                    <img src="Images/p4.png">
+                    <img src="Images/p5.png">
+                </div>
+                <div class="imageCard">
+                    <img src="Images/p3.jpg">
+                    <img src="Images/p6.PNG">
+                    <img src="Images/p2.png">
+                </div>
+                <button id="project"><a href="portfolio.html">More Projects</a></button>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="about_content heading">
+            <div class="title"><span>Contact Me</span></div>
+        </div>
+
+        <div class="contact_details">
+            <form id="form">
+                <div class="input_flex">
+                    <input type="text" placeholder="First Name" required>
+                    <input type="text" placeholder="Last Name" required>
+                </div>
+                <div class="input_flex">
+                    <input type="number" placeholder="Phone" required>
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <textarea id="textarea" placeholder="Write a message..."></textarea>
+                <div class="button">
+                    <button>Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright © 2023 CodingByHamayun</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
